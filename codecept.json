@@ -8,8 +8,6 @@
       "user": "pmm_qa",
       "key": "{SAUCE_USER_KEY}",
       "host": "ondemand.saucelabs.com",
-      "restart": false,
-      "keepCookies": true,
       "desiredCapabilities": {
         "screenResolution": "2560x1600",
         "chromeOptions": {
@@ -43,12 +41,14 @@
     "trendsDashboardPage": "./tests/pages/trendsDashboardPage.js",
     "proxysqlOverviewPage": "./tests/pages/proxysqlOverviewPage.js",
     "advancedDataExplorationPage": "./tests/pages/advancedDataExplorationPage.js",
-    "crossServerGraphsPage": "/tests/pages/crossServerGraphsPage.js",
+    "crossServerGraphsPage": "./tests/pages/crossServerGraphsPage.js",
     "prometheusPage": "./tests/pages/prometheusPage.js",
-    "prometheusExporterStatusPage": "/tests/pages/prometheusExporterStatusPage.js",
-    "prometheusExporterOverviewPage": "/tests/pages/prometheusExporterOverviewPage.js",
-    "pxcGaleraClusterOverviewPage": "/tests/pages/pxcGaleraClusterOverviewPage.js",
-    "mondodbClusterSummaryPage": "/tests/pages/mondodbClusterSummaryPage.js"
+    "prometheusExporterStatusPage": "./tests/pages/prometheusExporterStatusPage.js",
+    "prometheusExporterOverviewPage": "./tests/pages/prometheusExporterOverviewPage.js",
+    "pxcGaleraClusterOverviewPage": "./tests/pages/pxcGaleraClusterOverviewPage.js",
+    "qanPage" : "./tests/pages/qanPage.js",
+    "mongoDbClusterSummaryPage": "./tests/pages/mongoDbClusterSummaryPage.js",
+    "postgreSqlServicesOverviewPage": "./tests/pages/postgreSqlServicesOverviewPage.js"
   },
   "multiple": {
     "parallel": {
